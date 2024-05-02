@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Assícrona
+    </title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #a2d2ff;
+        }
+        .pais{
+            background-color: #fff;
+            padding: 2em;
+            margin: 2em;
+            border-radius: 0.5em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bandeira{
+            text-align: center;
+        }
+        .bandeira img{
+            max-width: 400px;
+        }
+        h1{
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .infoLinha{
+            padding: 0.5em 0;
+        }
+        .infoNome{
+            font-weight: bold;
+            text-transform: uppercase;
+            width: 100px;
+            display: inline-block;
+        }
+        .form{
+            text-align: center;
+        }
+      
+    </style>
+</head>
+<body>
+
+
+<div class="form">
+    <input type="text" id="txtPais" placeholder="Buscar por país" />
+    <button id="btnBuscar">Buscar</button>
+</div>
+
+    <div class="pais">
+        <div class="bandeira">
+            <img src="" id="imgBandeira" />
+        </div>
+        <h1>Nome do país</h1>
+
+        <div id="info">
+            <div class="infoLinha">
+                <span class="infoNome">Capital</span>
+                <span class="infoValor">Brasília</span>
+                <span class="infoNome">População</span>
+                <span class="infoValor">Área do pais</span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
